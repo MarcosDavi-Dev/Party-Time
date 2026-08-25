@@ -2,7 +2,7 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name": "Outro teste",
+    "name": "Exclua me",
     "description": "Apenas um teste",
     "price": 3000,
     "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
@@ -12,4 +12,18 @@ Content-Type: application/json
 GET http://localhost:3000/api/services
 
 ###
-GET http://localhost:3000/api/services/6a8caa5444c4d5e6e3371331
+GET http://localhost:3000/api/services/6a8dd9f37188d53413480b65
+
+###
+DELETE  http://localhost:3000/api/services/6a8dd9f37188d53413480b65
+
+###
+PUT http://localhost:3000/api/services/6a8caa5444c4d5e6e337133d
+Content-Type: application/json
+
+{
+    "name": "Teste atualização",
+    "description": "Apenas um teste",
+    "price": 3000,
+    "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
+}
