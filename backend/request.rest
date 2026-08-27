@@ -59,3 +59,51 @@ GET http://localhost:3000/api/parties
 
 ###
 GET http://localhost:3000/api/parties/6a8f5a9ed019729640e63f3e
+
+###
+DELETE http://localhost:3000/api/parties/6a8f5a9ed019729640e63f3e
+
+###
+PUT http://localhost:3000/api/parties/6a8f5a16d019729640e63f3d
+Content-Type: application/json
+
+{
+    "name": "Atualizando 2",
+    "description": "Apenas um teste",
+    "price": 12000,
+    "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg",
+    "services": [
+        {
+            "name": "Teste de update",
+            "description": "Apenas um teste",
+            "price": 10000,
+            "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
+        }
+    ]
+}
+
+###
+PUT http://localhost:3000/api/parties/6a8f5a16d019729640e63f3d
+Content-Type: application/json
+
+{
+    "title": "Festa Teste Orçamento",
+    "author": "Davi",
+    "description": "Teste para checar validação de orçamento",
+    "budget": 1000,
+    "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg",
+    "services": [
+        {
+            "name": "Serviço A",
+            "description": "Serviço caro",
+            "price": 600,
+            "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
+        },
+        {
+            "name": "Serviço B",
+            "description": "Outro serviço caro",
+            "price": 700,
+            "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
+        }
+    ]
+}
