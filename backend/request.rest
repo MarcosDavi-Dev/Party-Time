@@ -32,11 +32,11 @@ POST http://localhost:3000/api/parties
 Content-Type: application/json
 
 {
-    "title": " Testando serviços",
+    "title": "Atualizando imagem",
     "author": "Davi",
     "description": "Testando com serviço",
-    "budget": 3000,
-    "image":"https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg",
+    "budget": 8000,
+    "image":"https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80",
     "services":[
     {
         "name": "Teste",
@@ -57,10 +57,10 @@ Content-Type: application/json
 GET http://localhost:3000/api/parties
 
 ###
-GET http://localhost:3000/api/parties/6a8f5a9ed019729640e63f3e
+GET http://localhost:3000/api/parties/6a8f5a16d019729640e63f3d
 
 ###
-DELETE http://localhost:3000/api/parties/6a8f5a9ed019729640e63f3e
+DELETE http://localhost:3000/api/parties/6aa837060ef518536c2e0667
 
 ###
 PUT http://localhost:3000/api/parties/6a8f5a16d019729640e63f3d
@@ -70,13 +70,13 @@ Content-Type: application/json
     "name": "Atualizando 2",
     "description": "Apenas um teste",
     "price": 12000,
-    "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg",
+    "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80",
     "services": [
         {
             "name": "Teste de update",
             "description": "Apenas um teste",
             "price": 10000,
-            "image": "https://static.vecteezy.com/ti/vetor-gratis/p1/49753728-teste-folha-projeto-isolado-em-branco-fundo-vetor.jpg"
+            "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
         }
     ]
 }

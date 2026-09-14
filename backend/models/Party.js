@@ -8,23 +8,23 @@ const partySchema = new Schema(
   {
     title: {
       type: String,
-      require: true,
+      required: true,
     },
     author: {
       type: String,
-      require: true,
+      required: true,
     },
     description: {
       type: String,
-      require: true,
+      required: true,
     },
     budget: {
       type: Number,
-      require: true,
+      required: true,
     },
-    Image: {
+    image: {
       type: String,
-      require: true,
+      required: true,
     },
     services: {
       type: [serviceSchema],
