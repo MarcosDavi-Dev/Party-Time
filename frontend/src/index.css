@@ -26,7 +26,7 @@ p {
 }
 
 .btn,
-.btn-sercundary {
+.btn-secondary {
   background-color: #7703fc;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -40,7 +40,7 @@ p {
   opacity: 0.8;
 }
 
-.btn-sercundary {
+.btn-secondary {
   background-color: #fff;
   color: #283252;
   border: 1px solid #cfcfcf;
