@@ -26,6 +26,13 @@ const Home = () => {
 
   return (
     <div className="home">
+      <div className="author">
+        Este site foi desenvolvido por{" "}
+        <a href="https://github.com/MarcosDavi-Dev/Party-Time" target="_blank">
+          Marcos Davi
+        </a>{" "}
+        &copy; 2026
+      </div>
       <h1>Suas Festas</h1>
       <div className="parties-container">
         {parties.length === 0 && <p>Não há festas cadastradas!</p>}
