@@ -62,6 +62,8 @@ const EditParty = () => {
 
       if (res.status === 200) {
         navigate(`/party/${id}`);
+
+        useToast(res.data.msg);
       }
     } catch (error) {
       useToast(error.response.data.msg, "error");
